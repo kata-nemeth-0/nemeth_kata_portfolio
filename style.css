@@ -46,7 +46,7 @@ body {
   color: black;
 }
 
-.menusav a.active {
+.menusav a.aktiv {
   background-color: white;
   color: #274158;
   font-size: 25px;
