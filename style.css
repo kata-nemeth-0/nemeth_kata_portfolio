@@ -1,0 +1,122 @@
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F2F2F2;
+  color: #274158;
+  justify-content: space-between;
+}
+
+.menusav {
+  overflow: hidden;
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.menusav a {
+  float: left;
+  display: block;
+  color: #859EA7;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.menusav a.jobb_menu {
+  float: right;
+}
+
+.menusav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menusav a.active {
+  background-color: white;
+  color: #274158;
+  font-size: 25px;
+}
+
+.belso{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bal{
+    text-align: justify;
+    margin: 0%;
+    width: 40%;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.jobb{
+  float: right;
+  margin: 5%;
+  width: 45%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cim{
+  color:#FFA086;
+}
+.oszlop {
+  float: left;
+  max-width: 33.33%;
+  padding: 5px;
+}
+
+.sor::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.galleria {
+  margin: 1%;
+  margin-top: 0%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  }
+  
+  .galleria:hover {
+  border: 1px solid #777;
+  }
+  
+  .galleria img {
+  width: 100%;
+  height: auto;
+  }
+  
+.kepleiras {
+  padding: 15px;
+  text-align: center;
+  }
+.lablec {
+    position: fixed;
+    bottom: 0px;  
+    clear: both;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    background: #ddd;
+  }
+.lablec_paragrafus{
+    
+    text-align: right;
+}
